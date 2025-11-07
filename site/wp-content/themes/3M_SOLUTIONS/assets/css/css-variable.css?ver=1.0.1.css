@@ -1,0 +1,15 @@
+body{
+	--e-global-color-primary					: #222222;
+	--e-global-color-secondary					: #F5F5F5;
+	--e-global-color-text						: #81848A;
+	--e-global-color-accent						: #E20613;
+	--e-global-color-accentsecondary			: transparent;
+	--e-global-color-white						: #FFFFFF;
+	--e-global-color-black						: #000000;
+	--e-global-color-divider					: #EBEBEB;
+	--e-global-color-darkdivider				: #FFFFFF1A;
+	--e-global-typography-primary-font-family	: "Manrope", sans-serif;
+	--e-global-typography-secondary-font-family	: "Manrope", sans-serif;
+	--e-global-typography-text-font-family		: "Manrope", sans-serif;
+	--e-global-typography-accent-font-family    : "Manrope", sans-serif;
+}
