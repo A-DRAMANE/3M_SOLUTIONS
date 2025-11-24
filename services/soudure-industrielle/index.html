@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research and Development &#8211; Toplax</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+    <link rel='dns-prefetch' href='https://fonts.googleapis.com/' />
+    <link rel="alternate" type="application/rss+xml" title="Toplax &raquo; Feed" href="../../feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Toplax &raquo; Comments Feed"
+        href="../../comments/feed/index.html" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(s, n) {
+            var o, i, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    a = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e
+                        .getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === a[t]
+                })
+            }
+
+            function u(e, t) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                for (var n = e.getImageData(16, 16, 1, 1), a = 0; a < n.data.length; a++)
+                    if (0 !== n.data[a]) return !1;
+                return !0
+            }
+
+            function f(e, t, n, a) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !
+                            n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e,
+                                "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                                "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                                );
+                    case "emoji":
+                        return !a(e, "\ud83e\udedf")
+                }
+                return !1
+            }
+
+            function g(e, t, n, a) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(
+                        300, 150) : s.createElement("canvas"),
+                    o = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    i = (o.textBaseline = "top", o.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    i[e] = t(o, e, n, a)
+                }), i
+            }
+
+            function t(e) {
+                var t = s.createElement("script");
+                t.src = e, t.defer = !0, s.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", i = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                s.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() <
+                            e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" !=
+                        typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + g.toString() + "(" + [JSON.stringify(i), f.toString(), p
+                                .toString(), u.toString()
+                            ].join(",") + "));",
+                            a = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            r = new Worker(URL.createObjectURL(a), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(r.onmessage = function(e) {
+                            c(n = e.data), r.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = g(i, f, p, u))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n
+                    .supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports
+                        .everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n
+                    .DOMReady = !1, n.readyCallback = function() {
+                        n.DOMReady = !0
+                    }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e
+                    .concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+    </script>
+    <style id='wp-emoji-styles-inline-css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='classic-theme-styles-inline-css'>
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel='stylesheet' id='contact-form-7-css'
+        href='../../wp-content/plugins/contact-form-7/includes/css/styles.css%3Fver=6.1.2.css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-css'
+        href='../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css%3Fver=5.44.0.css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'
+        href='../../wp-content/plugins/elementor/assets/css/frontend.min.css%3Fver=3.32.3.css' media='all' />
+    <link rel='stylesheet' id='elementor-post-8-css'
+        href='../../wp-content/uploads/elementor/css/post-8.css%3Fver=1759297443.css' media='all' />
+    <link rel='stylesheet' id='widget-heading-css'
+        href='../../wp-content/plugins/elementor/assets/css/widget-heading.min.css%3Fver=3.32.3.css' media='all' />
+    <link rel='stylesheet' id='e-animation-fadeInUp-css'
+        href='../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css%3Fver=3.32.3.css'
+        media='all' />
+    <link rel='stylesheet' id='widget-image-css'
+        href='../../wp-content/plugins/elementor/assets/css/widget-image.min.css%3Fver=3.32.3.css' media='all' />
+    <link rel='stylesheet' id='widget-icon-box-css'
+        href='../../wp-content/plugins/elementor/assets/css/widget-icon-box.min.css%3Fver=3.32.3.css' media='all' />
+    <link rel='stylesheet' id='widget-icon-list-css'
+        href='../../wp-content/plugins/elementor/assets/css/widget-icon-list.min.css%3Fver=3.32.3.css' media='all' />
+    <link rel='stylesheet' id='elementor-post-1669-css'
+        href='../../wp-content/uploads/elementor/css/post-1669.css%3Fver=1759316673.css' media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-css'
+        href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css%3Fver=3.7.3.css'
+        media='all' />
+    <link rel='stylesheet' id='ekit-widget-styles-pro-css'
+        href='../../wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css%3Fver=4.1.0.css'
+        media='all' />
+    <link rel='stylesheet' id='ekit-responsive-css'
+        href='../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css%3Fver=3.7.3.css'
+        media='all' />
+    <link rel='stylesheet' id='toplax-font-css'
+        href='https://fonts.googleapis.com/css2?family=Manrope%3Awght%40200..800&#038;display=swap' media='all' />
+    <link rel='stylesheet' id='swiper-css'
+        href='../../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css%3Fver=8.4.5.css'
+        media='all' />
+    <link rel='stylesheet' id='e-swiper-css'
+        href='../../wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css%3Fver=3.32.3.css'
+        media='all' />
+    <link rel='stylesheet' id='toplax-css-variable-css'
+        href='../../wp-content/themes/3M_SOLUTIONS/assets/css/css-variable.css%3Fver=1.0.1.css' media='all' />
+    <link rel='stylesheet' id='fontawesome-6.4.0-css'
+        href='../../wp-content/themes/3M_SOLUTIONS/assets/css/all.min.css%3Fver=1.0.1.css' media='all' />
+    <link rel='stylesheet' id='bootstrap-5.3.2-css'
+        href='../../wp-content/themes/3M_SOLUTIONS/assets/css/bootstrap.min.css%3Fver=1.0.1.css' media='all' />
+    <link rel='stylesheet' id='toplax-style-css' href='../../wp-content/themes/3M_SOLUTIONS/style.css%3Fver=1.0.1.css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-gf-local-manrope-css'
+        href='../../wp-content/uploads/elementor/google-fonts/css/manrope.css%3Fver=1744845758.css' media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css'
+        href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css%3Fver=5.15.3.css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css'
+        href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css%3Fver=5.15.3.css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-ekiticons-css'
+        href='../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css%3Fver=3.7.3.css'
+        media='all' />
+    <script src="../../wp-includes/js/jquery/jquery.min.js%3Fver=3.7.1" id="jquery-core-js"></script>
+    <script src="../../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.4.1" id="jquery-migrate-js"></script>
+    <link rel="https://api.w.org/" href="../../wp-json/index.html" />
+    <link rel="alternate" title="JSON" type="application/json" href="../../wp-json/wp/v2/pages/1669" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+        href="https://demo.awaikenthemes.com/toplax/xmlrpc.php?rsd" />
+
+    <link rel="canonical" href="../../index.html%3Fp=1669.html" />
+    <link rel='shortlink' href='../../index.html%3Fp=1669.html' />
+    <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+        href="../../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fdemo.awaikenthemes.com%252Ftoplax%252Fservices%252Fresearch-and-development%252F" />
+    <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+        href="../../wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fdemo.awaikenthemes.com%252Ftoplax%252Fservices%252Fresearch-and-development%252F&amp;format=xml" />
+    <meta name="generator"
+        content="Elementor 3.32.3; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <script type="text/javascript">
+        var elementskit_module_parallax_url =
+            "https://demo.awaikenthemes.com/toplax/wp-content/plugins/elementskit/modules/parallax/";
+    </script>
+    <style>
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+            background-image: none !important;
+        }
+
+        @media screen and (max-height: 1024px) {
+
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+
+        @media screen and (max-height: 640px) {
+
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+            .e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+                background-image: none !important;
+            }
+        }
+    </style>
+    <meta name="theme-color" content="#FFFFFF">
+    <link rel="icon" href="../../wp-content/themes/3M_SOLUTIONS/assets/images/Icon.svg" sizes="32x32" />
+    <link rel="icon" href="../../wp-content/themes/3M_SOLUTIONS/assets/images/Icon.svg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="../../wp-content/themes/3M_SOLUTIONS/assets/images/Icon.svg" />
+    <meta name="msapplication-TileImage"
+        content="https://demo.awaikenthemes.com/toplax/wp-content/themes/3M_SOLUTIONS/assets/images/Icon.svg" />
+</head>
+
+<body
+    class="wp-singular page-template page-template-elementor_header_footer page page-id-1669 page-child parent-pageid-4488 wp-custom-logo wp-theme-toplax tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-1669">
+
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="../../wp-content/themes/3M_SOLUTIONS/assets/images/loader.svg"
+                    alt=""></div>
+        </div>
+    </div>
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <a class="skip-link screen-reader-text" href="../../index.html%3Fp=1669.html#content">
+        Skip to content </a>
+
+
+    <div class="ekit-template-content-markup ekit-template-content-header ekit-template-content-theme-support">
+        <div data-elementor-type="wp-post" data-elementor-id="4240" class="elementor elementor-4240">
+            <div class="elementor-element elementor-element-18b5ef0 header-version-1 e-flex e-con-boxed e-con e-parent"
+                data-id="18b5ef0" data-element_type="container">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-a672732 e-con-full e-flex e-con e-child"
+                        data-id="a672732" data-element_type="container">
+                        <div class="elementor-element elementor-element-b82d7d7 navbar-brand elementor-widget elementor-widget-toplax-site-logo"
+                            data-id="b82d7d7" data-element_type="widget"
+                            data-settings="{&quot;align&quot;:&quot;left&quot;,&quot;align_mobile&quot;:&quot;left&quot;,&quot;width&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;space&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:100,&quot;sizes&quot;:[]},&quot;space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:130,&quot;sizes&quot;:[]},&quot;space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:130,&quot;sizes&quot;:[]},&quot;caption_space&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;caption_space_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;width_tablet&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;width_mobile&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;image_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;image_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;caption_space_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="toplax-site-logo.default">
+                            <div class="elementor-widget-container">
+                                <div class="ata-site-logo">
+                                    <a data-elementor-open-lightbox="" class='elementor-clickable'
+                                        href="/">
+                                        <div class="ata-site-logo-set">
+                                            <div class="ata-site-logo-container">
+                                                <img class="ata-site-logo-img elementor-animation-"
+                                                    src="../wp-content/themes/3M_SOLUTIONS/assets/images/logo__full.svg"
+                                                    alt="default-logo" />
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-fc5b3d9 e-con-full e-flex e-con e-child"
+                        data-id="fc5b3d9" data-element_type="container">
+                        <div class="elementor-element elementor-element-1d918e8 elementor-widget elementor-widget-ekit-nav-menu"
+                            data-id="1d918e8" data-element_type="widget"
+                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="ekit-nav-menu.default">
+                            <div class="elementor-widget-container">
+                                <nav class="ekit-wid-con ekit_menu_responsive_tablet" data-hamburger-icon=""
+                                    data-hamburger-icon-type="icon" data-responsive-breakpoint="1024">
+                                    <button class="elementskit-menu-hamburger elementskit-menu-toggler" type="button"
+                                        aria-label="hamburger-icon">
+                                        <span class="elementskit-menu-hamburger-icon"></span><span
+                                            class="elementskit-menu-hamburger-icon"></span><span
+                                            class="elementskit-menu-hamburger-icon"></span>
+                                    </button>
+                                    <div id="ekit-megamenu-header-menu"
+                                        class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page- ekit-nav-dropdown-hover">
+                                        <ul id="menu-header-menu"
+                                            class="elementskit-navbar-nav elementskit-menu-po-left submenu-click-on-icon">
+                                            
+                                            <li id="menu-item-9169"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9169 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="../../about-us/index.html"
+                                                    class="ekit-menu-nav-link">À propos</a></li>
+                                            <li id="menu-item-4865"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4865 nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="../../services/index.html"
+                                                    class="ekit-menu-nav-link ekit-menu-dropdown-toggle">Nos services
+<i
+                                                        aria-hidden="true"
+                                                        class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></a>
+                                                <ul class="elementskit-dropdown elementskit-submenu-panel">
+                                                    <li id="menu-item-10063"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10063 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../mecanique-industrielle/index.html"
+                                                            class=" dropdown-item">Mécanique Industrielle</a>
+                                                    <li id="menu-item-10065"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10065 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../tuyauterie-industrielle/index.html"
+                                                            class=" dropdown-item">Tuyauterie Industrielle</a>
+                                                    <li id="menu-item-10066"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10066 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../electricite-industrielle/index.html"
+                                                            class=" dropdown-item">Electricité Industrielle</a>
+                                                    <li id="menu-item-10064"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10064 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../soudure-industrielle/index.html"
+                                                            class=" dropdown-item">Soudure Industrielle</a> <hr>
+                                                    <li id="menu-item-10067"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10067 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../materiel-industrielle/index.html"
+                                                            class=" dropdown-item">Matériel Industrielle</a>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-6735"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6735 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="../../formations/index.html"
+                                                    class="ekit-menu-nav-link">Nos formations</a></li>
+                                            <li id="menu-item-8575"
+                                                class="menu-item menu-item-type-post_type_archive menu-item-object-awaiken-project menu-item-8575 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="#!"
+                                                    class="ekit-menu-nav-link">Projects</a></li>
+                                            <li id="menu-item-4864"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4864 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="#!"
+                                                    class="ekit-menu-nav-link">Carrière</a></li>
+                                            <li id="menu-item-4864"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4864 nav-item elementskit-mobile-builder-content"
+                                                data-vertical-menu=750px><a href="../../contact-us/index.html"
+                                                    class="ekit-menu-nav-link">Contact</a></li>
+                                        </ul>
+                                        <div class="elementskit-nav-identity-panel"><button
+                                                class="elementskit-menu-close elementskit-menu-toggler"
+                                                type="button">X</button></div>
+                                    </div>
+                                    <div
+                                        class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay">
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-elementor-type="wp-page" data-elementor-id="1669" class="elementor elementor-1669">
+        <div data-ekitparallax="{&quot;ekit_section_parallax_bg&quot;:&quot;yes&quot;,&quot;ekit_section_parallax_bg_speed&quot;:0.5,&quot;elementor_lazy_load&quot;:&quot;1&quot;}"
+            class="elementor-element elementor-element-1c33d5f page-hero e-flex e-con-boxed e-con e-parent"
+            data-id="1c33d5f" data-element_type="container"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="e-con-inner">
+                <div class="elementor-element elementor-element-1bf65b1 e-con-full e-flex e-con e-child"
+                    data-id="1bf65b1" data-element_type="container">
+                    <div class="elementor-element elementor-element-0974181 at-heading-animation at-animation-heading-style-2 elementor-widget elementor-widget-heading"
+                        data-id="0974181" data-element_type="widget"
+                        data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                        data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h1 class="elementor-heading-title elementor-size-default">Soudure 
+                                <span>Industrielle</span></h1>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-07fdac2 elementor-invisible elementor-widget elementor-widget-elementskit-breadcrumb"
+                        data-id="07fdac2" data-element_type="widget"
+                        data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                        data-widget_type="elementskit-breadcrumb.default">
+                        <div class="elementor-widget-container">
+                            <div class="ekit-wid-con">
+                                <ol class="ekit-breadcrumb">
+                                    <li class="ekit_breadcrumbs_start"><a
+                                            href="../../index.html">Acceuil</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="elementor-element elementor-element-1ed698f e-flex e-con-boxed e-con e-parent" data-id="1ed698f"
+            data-element_type="container">
+            <div class="e-con-inner">
+                <div class="elementor-element elementor-element-4c019c8 e-con-full e-flex e-con e-child"
+                    data-id="4c019c8" data-element_type="container">
+                    <div class="elementor-element elementor-element-332f817 e-con-full sticky-column e-flex e-con e-child"
+                        data-id="332f817" data-element_type="container">
+                        <div class="elementor-element elementor-element-bf2e9f9 e-con-full e-flex elementor-invisible e-con e-child"
+                            data-id="bf2e9f9" data-element_type="container"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;}">
+                            <div class="elementor-element elementor-element-439cbda elementor-widget elementor-widget-toplax-elementor-template"
+                                data-id="439cbda" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="toplax-elementor-template.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-template">
+                                        <div data-elementor-type="section" data-elementor-id="9186"
+                                            class="elementor elementor-9186">
+                                            <div class="elementor-element elementor-element-f1ec92e e-con-full e-flex e-con e-child"
+                                                data-id="f1ec92e" data-element_type="container"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-8ce5b51 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
+                                                    data-id="8ce5b51" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="heading.default">
+                                                    <div class="elementor-widget-container">
+                                                        <h2 class="elementor-heading-title elementor-size-default">
+                                                            Services</h2>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-699f4a2 service-catagery-list elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                                                    data-id="699f4a2" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="icon-list.default">
+                                                    <div class="elementor-widget-container">
+                                                        <ul class="elementor-icon-list-items">
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="../mecanique-industrielle/index.html">
+
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="24" height="25"
+                                                                            viewBox="0 0 24 25" fill="none">
+                                                                            <path
+                                                                                d="M7 18.3301C6.7 18.3301 6.5 18.2301 6.3 18.0301C5.9 17.6301 5.9 17.0301 6.3 16.6301L16.3 6.63008C16.7 6.23008 17.3 6.23008 17.7 6.63008C18.1 7.03008 18.1 7.63008 17.7 8.03008L7.7 18.0301C7.5 18.2301 7.3 18.3301 7 18.3301Z"
+                                                                                fill="#222222"></path>
+                                                                            <path
+                                                                                d="M17 17.3301C16.4 17.3301 16 16.9301 16 16.3301V8.33008H8C7.4 8.33008 7 7.93008 7 7.33008C7 6.73008 7.4 6.33008 8 6.33008H17C17.6 6.33008 18 6.73008 18 7.33008V16.3301C18 16.9301 17.6 17.3301 17 17.3301Z"
+                                                                                fill="#222222"></path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-icon-list-text">Mécanique industrielle</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="../tuyauterie-industrielle/index.html">
+
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="24" height="25"
+                                                                            viewBox="0 0 24 25" fill="none">
+                                                                            <path
+                                                                                d="M7 18.3301C6.7 18.3301 6.5 18.2301 6.3 18.0301C5.9 17.6301 5.9 17.0301 6.3 16.6301L16.3 6.63008C16.7 6.23008 17.3 6.23008 17.7 6.63008C18.1 7.03008 18.1 7.63008 17.7 8.03008L7.7 18.0301C7.5 18.2301 7.3 18.3301 7 18.3301Z"
+                                                                                fill="#222222"></path>
+                                                                            <path
+                                                                                d="M17 17.3301C16.4 17.3301 16 16.9301 16 16.3301V8.33008H8C7.4 8.33008 7 7.93008 7 7.33008C7 6.73008 7.4 6.33008 8 6.33008H17C17.6 6.33008 18 6.73008 18 7.33008V16.3301C18 16.9301 17.6 17.3301 17 17.3301Z"
+                                                                                fill="#222222"></path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-icon-list-text">Tuyauterie industrielle </span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="../electricite-industrielle/index.html">
+
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="24" height="25"
+                                                                            viewBox="0 0 24 25" fill="none">
+                                                                            <path
+                                                                                d="M7 18.3301C6.7 18.3301 6.5 18.2301 6.3 18.0301C5.9 17.6301 5.9 17.0301 6.3 16.6301L16.3 6.63008C16.7 6.23008 17.3 6.23008 17.7 6.63008C18.1 7.03008 18.1 7.63008 17.7 8.03008L7.7 18.0301C7.5 18.2301 7.3 18.3301 7 18.3301Z"
+                                                                                fill="#222222"></path>
+                                                                            <path
+                                                                                d="M17 17.3301C16.4 17.3301 16 16.9301 16 16.3301V8.33008H8C7.4 8.33008 7 7.93008 7 7.33008C7 6.73008 7.4 6.33008 8 6.33008H17C17.6 6.33008 18 6.73008 18 7.33008V16.3301C18 16.9301 17.6 17.3301 17 17.3301Z"
+                                                                                fill="#222222"></path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-icon-list-text">Electricité industrielle</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="../soudure-industrielle/index.html">
+
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="24" height="25"
+                                                                            viewBox="0 0 24 25" fill="none">
+                                                                            <path
+                                                                                d="M7 18.3301C6.7 18.3301 6.5 18.2301 6.3 18.0301C5.9 17.6301 5.9 17.0301 6.3 16.6301L16.3 6.63008C16.7 6.23008 17.3 6.23008 17.7 6.63008C18.1 7.03008 18.1 7.63008 17.7 8.03008L7.7 18.0301C7.5 18.2301 7.3 18.3301 7 18.3301Z"
+                                                                                fill="#222222"></path>
+                                                                            <path
+                                                                                d="M17 17.3301C16.4 17.3301 16 16.9301 16 16.3301V8.33008H8C7.4 8.33008 7 7.93008 7 7.33008C7 6.73008 7.4 6.33008 8 6.33008H17C17.6 6.33008 18 6.73008 18 7.33008V16.3301C18 16.9301 17.6 17.3301 17 17.3301Z"
+                                                                                fill="#222222"></path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-icon-list-text">Soudure industrielle</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="elementor-icon-list-item">
+                                                                <a href="../materiel-industrielle/index.html">
+
+                                                                    <span class="elementor-icon-list-icon">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg"
+                                                                            width="24" height="25"
+                                                                            viewBox="0 0 24 25" fill="none">
+                                                                            <path
+                                                                                d="M7 18.3301C6.7 18.3301 6.5 18.2301 6.3 18.0301C5.9 17.6301 5.9 17.0301 6.3 16.6301L16.3 6.63008C16.7 6.23008 17.3 6.23008 17.7 6.63008C18.1 7.03008 18.1 7.63008 17.7 8.03008L7.7 18.0301C7.5 18.2301 7.3 18.3301 7 18.3301Z"
+                                                                                fill="#222222"></path>
+                                                                            <path
+                                                                                d="M17 17.3301C16.4 17.3301 16 16.9301 16 16.3301V8.33008H8C7.4 8.33008 7 7.93008 7 7.33008C7 6.73008 7.4 6.33008 8 6.33008H17C17.6 6.33008 18 6.73008 18 7.33008V16.3301C18 16.9301 17.6 17.3301 17 17.3301Z"
+                                                                                fill="#222222"></path>
+                                                                        </svg> </span>
+                                                                    <span class="elementor-icon-list-text">Matériel industrielle</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9a1c1ef e-con-full e-flex elementor-invisible e-con e-child"
+                            data-id="9a1c1ef" data-element_type="container"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:100}">
+                            <div class="elementor-element elementor-element-4f7c487 elementor-widget elementor-widget-toplax-elementor-template"
+                                data-id="4f7c487" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="toplax-elementor-template.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-template">
+                                        <div data-elementor-type="section" data-elementor-id="9193"
+                                            class="elementor elementor-9193">
+                                            <div class="elementor-element elementor-element-1ce0dc4 e-con-full e-flex e-con e-child"
+                                                data-id="1ce0dc4" data-element_type="container"
+                                                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                                <div class="elementor-element elementor-element-a0dcd78 sidebar-cta-content  elementor-position-top elementor-widget elementor-widget-image-box"
+                                                    data-id="a0dcd78" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="image-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-image-box-wrapper">
+                                                            <figure class="elementor-image-box-img"><img
+                                                                    decoding="async" width="156" height="54"
+                                                                    src="../../wp-content/themes/3M_SOLUTIONS/assets/images/logo__full.svg"
+                                                                    class="attachment-full size-full wp-image-1843"
+                                                                    alt="" /></figure>
+                                                            <div class="elementor-image-box-content">
+                                                                <h3 class="elementor-image-box-title">Besoins
+                                                                    <span>d'aide !</span></h3>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-6f4435a elementor-view-stacked elementor-shape-square elementor-position-left need-help elementor-mobile-position-left elementor-widget elementor-widget-icon-box"
+                                                    data-id="6f4435a" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="icon-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-icon-box-wrapper">
+
+                                                            <div class="elementor-icon-box-icon">
+                                                                <a href="tel:+22625373067" class="elementor-icon"
+                                                                    tabindex="-1" aria-label="+226 25 37 30 67 ">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="31" height="31"
+                                                                        viewBox="0 0 31 31" fill="none">
+                                                                        <g clip-path="url(#clip0_147_18074)">
+                                                                            <path
+                                                                                d="M20.0892 29.2866C19.9646 29.2866 19.8392 29.2757 19.7146 29.2534C15.4249 28.4812 11.1486 26.1428 7.67408 22.6682C4.19951 19.1937 1.86114 14.9174 1.08895 10.6277C0.943464 9.81809 1.28273 8.9761 1.95332 8.48251C2.8121 7.85051 3.73743 7.26297 4.70311 6.73728C5.34337 6.38888 6.09818 6.36944 6.72371 6.68456C8.86211 7.76245 10.2796 9.55775 10.9366 12.0204C11.1148 12.6869 10.956 13.4096 10.5122 13.9532L9.09536 15.687C8.8683 15.965 8.84061 16.3484 9.02674 16.6412C10.2321 18.5378 11.8045 20.1102 13.7011 21.3153C13.9936 21.5017 14.377 21.4737 14.6553 21.2469L16.3888 19.8304C16.9327 19.3863 17.6546 19.2278 18.3222 19.4057C20.7846 20.063 22.5799 21.4805 23.6577 23.6189C23.9732 24.2438 23.9537 24.9989 23.6053 25.6392C23.0793 26.6049 22.4918 27.5302 21.8595 28.389C21.4422 28.9562 20.7751 29.2866 20.0892 29.2866ZM5.77541 7.81811C5.63375 7.81811 5.48767 7.85522 5.3522 7.92914C4.44012 8.42567 3.5675 8.97964 2.75791 9.57542C2.50081 9.76479 2.37005 10.0834 2.42482 10.3874C3.14813 14.4074 5.35309 18.4279 8.63357 21.7087C11.9144 24.9892 15.9349 27.1942 19.9549 27.9175C20.2594 27.972 20.5775 27.8412 20.7666 27.5844C21.3627 26.7748 21.9166 25.9022 22.4135 24.9901C22.5486 24.7415 22.561 24.4573 22.4461 24.23C21.537 22.4267 20.0736 21.2776 17.972 20.7168C17.7258 20.6515 17.4543 20.7124 17.2473 20.8815L15.5141 22.2977C14.7817 22.8962 13.76 22.9616 12.9731 22.4606C10.9074 21.148 9.19431 19.4349 7.88141 17.3692C7.38075 16.5817 7.44613 15.5603 8.04456 14.8282L9.46113 13.0948C9.62988 12.888 9.69144 12.6174 9.62547 12.3706C9.06473 10.2687 7.91557 8.80529 6.11261 7.89615C6.00895 7.84403 5.8938 7.81811 5.77541 7.81811Z"
+                                                                                fill="#E20613"></path>
+                                                                            <path
+                                                                                d="M28.866 15.7494C28.8562 15.7494 28.8465 15.7491 28.8371 15.7488C28.4625 15.7332 28.1718 15.4169 28.1874 15.0426C28.3323 11.5848 27.0168 8.20302 24.5783 5.76393C22.1395 3.32543 18.7647 2.0031 15.2996 2.15477C14.9391 2.1642 14.609 1.88 14.5934 1.5051C14.5778 1.13078 14.8684 0.814481 15.2428 0.798873C19.0793 0.636306 22.831 2.09793 25.5378 4.80443C28.2443 7.51093 29.7041 11.2635 29.5433 15.0994C29.528 15.464 29.2276 15.7494 28.866 15.7494Z"
+                                                                                fill="#E20613"></path>
+                                                                            <path
+                                                                                d="M25.2556 15.7494C25.2424 15.7494 25.2288 15.7491 25.2153 15.7482C24.841 15.7261 24.5556 15.4051 24.5777 15.0311C24.7249 12.5293 23.7961 10.0808 22.0287 8.31346C20.2614 6.54614 17.8114 5.61963 15.3111 5.76452C14.935 5.78956 14.6161 5.50123 14.594 5.12692C14.5719 4.7529 14.8573 4.43189 15.2316 4.4098C18.1165 4.2381 20.9473 5.31275 22.9882 7.35396C25.0295 9.39518 26.1026 12.2224 25.9324 15.1106C25.9112 15.4714 25.6123 15.7494 25.2556 15.7494Z"
+                                                                                fill="#E20613"></path>
+                                                                            <path
+                                                                                d="M21.6494 15.7494C21.6282 15.7494 21.607 15.7485 21.5855 15.7464C21.2124 15.7117 20.9382 15.381 20.973 15.0078C21.1167 13.467 20.5724 11.9562 19.4792 10.863C18.386 9.77005 16.8764 9.22522 15.3344 9.36923C14.9615 9.4031 14.6302 9.1298 14.5957 8.75666C14.561 8.38352 14.8352 8.05279 15.2083 8.01804C17.1544 7.83692 19.0593 8.524 20.4387 9.90346C21.8185 11.2829 22.5056 13.1895 22.3241 15.1339C22.2915 15.4855 21.9958 15.7494 21.6494 15.7494Z"
+                                                                                fill="#E20613"></path>
+                                                                        </g>
+                                                                        <defs>
+                                                                            <clipPath id="clip0_147_18074">
+                                                                                <rect width="30" height="30"
+                                                                                    fill="white"
+                                                                                    transform="translate(0.305664 0.0366211)">
+                                                                                </rect>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                    </svg> </a>
+                                                            </div>
+
+                                                            <div class="elementor-icon-box-content">
+
+                                                                <h3 class="elementor-icon-box-title">
+                                                                    <a href="tel:+22625373067">
+                                                                        +226 25 37 30 67 </a>
+                                                                </h3>
+
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="elementor-element elementor-element-d32b943 elementor-view-stacked elementor-shape-square elementor-position-left need-help elementor-widget elementor-widget-icon-box"
+                                                    data-id="d32b943" data-element_type="widget"
+                                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                                    data-widget_type="icon-box.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-icon-box-wrapper">
+
+                                                            <div class="elementor-icon-box-icon">
+                                                                <a href="mailto:3msolutions@gmail.com"
+                                                                    class="elementor-icon" tabindex="-1"
+                                                                    aria-label="3msolutions@gmail.com">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="31" height="31"
+                                                                        viewBox="0 0 31 31" fill="none">
+                                                                        <g clip-path="url(#clip0_147_18081)">
+                                                                            <path
+                                                                                d="M25.3173 4.04742C22.7515 4.04742 20.5909 5.81602 19.9908 8.19815H3.00426C2.43021 8.19815 1.88781 8.41817 1.47578 8.81795C1.47537 8.81836 1.4749 8.81877 1.47449 8.81918C1.47314 8.82053 1.47174 8.82182 1.47033 8.82317C1.04424 9.23965 0.80957 9.79711 0.80957 10.3928V24.5861C0.80957 25.1906 1.06258 25.774 1.50355 26.187C1.50443 26.1878 1.50531 26.1887 1.50619 26.1895C1.91412 26.5708 2.44609 26.7808 3.00426 26.7808H23.7085C24.2649 26.7808 24.7954 26.5722 25.2026 26.1933C25.2055 26.1906 25.2084 26.188 25.2113 26.1852C25.651 25.7721 25.9032 25.1896 25.9032 24.5861V15.001C28.6572 14.7076 30.8096 12.3703 30.8096 9.53971C30.8096 6.51129 28.3458 4.04742 25.3173 4.04742ZM3.00426 9.37002H19.8276C19.8259 9.42639 19.8251 9.48293 19.8251 9.53971C19.8251 10.5891 20.1209 11.5706 20.6335 12.4054L13.7394 18.9223H12.9735L2.87652 9.37787C2.91859 9.37266 2.96125 9.37002 3.00426 9.37002ZM1.98145 10.3928C1.98145 10.3161 1.98982 10.2408 2.00611 10.1678L10.2145 17.927L2.02691 24.8889C1.99721 24.7923 1.98145 24.6906 1.98145 24.5861V10.3928ZM23.7085 25.6089H3.00426C2.99945 25.6089 2.99477 25.6083 2.99002 25.6082L11.0712 18.7368L12.3379 19.9341C12.4467 20.037 12.5907 20.0942 12.7404 20.0942H13.9725C14.1222 20.0942 14.2662 20.0369 14.375 19.9341L15.6416 18.7368L23.7235 25.6088C23.7185 25.6088 23.7135 25.6089 23.7085 25.6089ZM24.7313 24.5861C24.7313 24.6907 24.7159 24.7925 24.6862 24.8891L16.4983 17.9269L21.3533 13.3376C22.2265 14.2486 23.4096 14.8602 24.7313 15.001V24.5861ZM25.3173 13.8602C22.935 13.8602 20.9969 11.922 20.9969 9.53971C20.9969 7.1574 22.935 5.2193 25.3173 5.2193C27.6996 5.2193 29.6377 7.1574 29.6377 9.53971C29.6377 11.922 27.6996 13.8602 25.3173 13.8602Z"
+                                                                                fill="#E20613"></path>
+                                                                            <path
+                                                                                d="M25.5141 7.66315H24.8877C24.5641 7.66315 24.3018 7.92553 24.3018 8.24908C24.3018 8.57264 24.5641 8.83502 24.8877 8.83502H24.9281V11.1782C24.9281 11.5018 25.1904 11.7642 25.5141 11.7642C25.8377 11.7642 26.1 11.5018 26.1 11.1782V8.24908C26.1 7.92547 25.8377 7.66315 25.5141 7.66315Z"
+                                                                                fill="#E20613"></path>
+                                                                        </g>
+                                                                        <defs>
+                                                                            <clipPath id="clip0_147_18081">
+                                                                                <rect width="30" height="30"
+                                                                                    fill="white"
+                                                                                    transform="translate(0.80957 0.414062)">
+                                                                                </rect>
+                                                                            </clipPath>
+                                                                        </defs>
+                                                                    </svg> </a>
+                                                            </div>
+
+                                                            <div class="elementor-icon-box-content">
+
+                                                                <h3 class="elementor-icon-box-title">
+                                                                    <a href="mailto:3msolutions@gmail.com">
+                                                                        3msolutions@gmail.com </a>
+                                                                </h3>
+
+
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-2702dae e-con-full e-flex e-con e-child"
+                    data-id="2702dae" data-element_type="container">
+                    <div class="elementor-element elementor-element-30c1e53 e-con-full e-flex e-con e-child"
+                        data-id="30c1e53" data-element_type="container"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-element elementor-element-e843462 service-featured-image image-anime at-image-animation at-animation-image-style-1 elementor-widget elementor-widget-image"
+                            data-id="e843462" data-element_type="widget"
+                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img fetchpriority="high" decoding="async" width="1200" height="800"
+                                    src="../../wp-content/themes/3M_SOLUTIONS/assets/images/traveaux/6.jpg"
+                                    class="attachment-full size-full wp-image-2049" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-deb770d e-con-full e-flex e-con e-child"
+                        data-id="deb770d" data-element_type="container">
+                        <div class="elementor-element elementor-element-5b80b4d elementor-invisible elementor-widget elementor-widget-text-editor"
+                            data-id="5b80b4d" data-element_type="widget"
+                            data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Des solutions fiables pour vos équipements, Maintenance, réparation, usinage, et bien plus encore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-0519013 e-con-full e-flex e-con e-child"
+                        data-id="0519013" data-element_type="container">
+                        <div class="elementor-element elementor-element-17e082a column-3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list"
+                            data-id="17e082a" data-element_type="widget"
+                            data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="icon-list.default">
+                            <div class="elementor-widget-container">
+                                <ul class="elementor-icon-list-items">
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Soudage spécialisé</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Assemblage de structures métalliques  </span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Réparations et renforcements </span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Préfabrication en atelier</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Contrôle de qualité des soudures</span>
+                                    </li>
+                                    <li class="elementor-icon-list-item">
+                                        <span class="elementor-icon-list-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none">
+                                                <path
+                                                    d="M23.878 10.284C23.8379 10.0043 23.6342 9.77577 23.361 9.70391L22.1659 9.38943C21.92 8.42905 21.5402 7.51372 21.033 6.65877L21.6566 5.58955C21.7988 5.34552 21.7813 5.04008 21.612 4.81396C21.2711 4.35843 20.892 3.92122 20.4853 3.51435C20.0795 3.10841 19.6422 2.72929 19.1856 2.38738C18.9595 2.21807 18.654 2.20049 18.4099 2.34294L17.3408 2.96657C16.4859 2.45929 15.5706 2.07955 14.6102 1.8336L14.2958 0.638613C14.2238 0.365379 13.9954 0.161707 13.7157 0.121535C12.5876 -0.0405117 11.4123 -0.0405117 10.2842 0.121535C10.0045 0.16166 9.77611 0.365332 9.7042 0.638613L9.38972 1.8336C8.42939 2.0795 7.51416 2.45924 6.65911 2.96657L5.59008 2.34294C5.34605 2.20058 5.04047 2.21816 4.81434 2.38738C4.35783 2.72924 3.92053 3.10836 3.51464 3.51435C3.10795 3.92118 2.72888 4.35838 2.38791 4.81391C2.21864 5.04004 2.20111 5.34547 2.34338 5.5895L2.96691 6.65872C2.45967 7.51377 2.07994 8.42905 1.83403 9.38938L0.639 9.70386C0.365719 9.77572 0.162047 10.0043 0.121969 10.284C0.0410625 10.8483 0 11.4255 0 11.9997C0 12.5739 0.0410625 13.1511 0.122016 13.7154C0.162094 13.9951 0.365766 14.2236 0.639047 14.2955L1.83408 14.61C2.08003 15.5704 2.45977 16.4857 2.96695 17.3406L2.34342 18.4099C2.20116 18.6539 2.21869 18.9593 2.38795 19.1855C2.72892 19.641 3.108 20.0782 3.51473 20.4851C3.92053 20.891 4.35783 21.2701 4.81439 21.612C5.04052 21.7813 5.346 21.7989 5.59012 21.6565L6.65916 21.0328C7.51411 21.5401 8.42944 21.9199 9.38977 22.1658L9.70425 23.3608C9.77616 23.634 10.0046 23.8377 10.2843 23.8778C10.8483 23.9589 11.4256 24 12 24C12.5744 24 13.1517 23.9589 13.7158 23.8779C13.9955 23.8378 14.2239 23.6341 14.2958 23.3608L14.6103 22.1659C15.5706 21.92 16.4858 21.5402 17.3409 21.0329L18.4099 21.6566C18.654 21.799 18.9596 21.7814 19.1857 21.6121C19.6422 21.2703 20.0795 20.8911 20.4854 20.4852C20.892 20.0783 21.2711 19.6411 21.6121 19.1856C21.7814 18.9595 21.7989 18.654 21.6566 18.41L21.0331 17.3408C21.5403 16.4857 21.9201 15.5705 22.166 14.6101L23.361 14.2956C23.6343 14.2238 23.838 13.9952 23.878 13.7155C23.959 13.1512 24 12.574 24 11.9998C24 11.4257 23.9589 10.8483 23.878 10.284ZM12 19.4812C7.87481 19.4812 4.51875 16.1252 4.51875 12C4.51875 7.8748 7.87481 4.51874 12 4.51874C16.1252 4.51874 19.4813 7.8748 19.4813 12C19.4813 16.1252 16.1252 19.4812 12 19.4812Z"
+                                                    fill="#E20613"></path>
+                                                <path
+                                                    d="M12.0008 5.92476C8.651 5.92476 5.92578 8.64998 5.92578 11.9998C5.92578 15.3495 8.651 18.0748 12.0008 18.0748C15.3506 18.0748 18.0758 15.3495 18.0758 11.9998C18.0758 8.64998 15.3506 5.92476 12.0008 5.92476ZM15.5105 10.9907L11.7448 14.7563C11.613 14.8882 11.4342 14.9623 11.2477 14.9623C11.0612 14.9623 10.8823 14.8882 10.7505 14.7563L8.86766 12.8735C8.59306 12.599 8.59306 12.1537 8.86766 11.8791C9.1422 11.6046 9.58742 11.6046 9.86202 11.8791L11.2477 13.2648L14.5161 9.99632C14.7907 9.72177 15.2359 9.72177 15.5105 9.99632C15.785 10.2709 15.785 10.7161 15.5105 10.9907Z"
+                                                    fill="#E20613"></path>
+                                            </svg> </span>
+                                        <span class="elementor-icon-list-text">Soudage sur matériaux spéciaux</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
+        <div data-elementor-type="wp-post" data-elementor-id="3553" class="elementor elementor-3553">
+            <div class="elementor-element elementor-element-f8c3dc0 e-flex e-con-boxed e-con e-parent"
+                data-id="f8c3dc0" data-element_type="container"
+                data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-bfe0abc e-con-full e-flex e-con e-child"
+                        data-id="bfe0abc" data-element_type="container">
+                        <div class="elementor-element elementor-element-ea197d7 e-con-full e-flex e-con e-child"
+                            data-id="ea197d7" data-element_type="container">
+                            <div class="elementor-element elementor-element-853680b at-heading-animation at-animation-heading-style-2 elementor-widget elementor-widget-heading"
+                                data-id="853680b" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Prêts à travailler avec nous ?
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-79c4a8d elementor-widget elementor-widget-text-editor"
+                                data-id="79c4a8d" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+									<p>Rejoignez-nous pour découvrir des solutions industrielles de pointe qui favorisent l'innovation et un succès durable.</p>
+								</div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-c0b52df e-con-full e-flex e-con e-child"
+                            data-id="c0b52df" data-element_type="container">
+                            <div class="elementor-element elementor-element-2a9f9a4 footer-contact-us-round elementor-widget elementor-widget-text-path"
+                                data-id="2a9f9a4" data-element_type="widget"
+                                data-settings="{&quot;text&quot;:&quot;Contect Now * Contect Now * Contect Now *&quot;,&quot;link&quot;:{&quot;url&quot;:&quot;&quot;,&quot;is_external&quot;:&quot;&quot;,&quot;nofollow&quot;:&quot;&quot;,&quot;custom_attributes&quot;:&quot;&quot;},&quot;start_point&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:0,&quot;sizes&quot;:[]},&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="text-path.default">
+                                <div class="elementor-widget-container">
+                                    <div class="e-text-path" data-text="Contect Now * Contect Now * Contect Now *"
+                                        data-link-url=""></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-0053d32 e-con-full e-flex e-con e-child"
+                        data-id="0053d32" data-element_type="container">
+                        <div class="elementor-element elementor-element-618b9ed e-con-full e-flex e-con e-child"
+                            data-id="618b9ed" data-element_type="container">
+                            <div class="elementor-element elementor-element-f7f8823 e-con-full e-flex e-con e-child"
+                                data-id="f7f8823" data-element_type="container">
+                                <div class="elementor-element elementor-element-0b418ed at-image-animation at-animation-image-none elementor-widget elementor-widget-image"
+                                    data-id="0b418ed" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img width="156" height="54"
+                                            src="../../wp-content/themes/3M_SOLUTIONS/assets/images/logo__full.svg"
+                                            class="attachment-full size-full wp-image-1843" alt="" />
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-a8585b6 elementor-widget elementor-widget-text-editor"
+                                    data-id="a8585b6" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="text-editor.default">
+                                    <div class="elementor-widget-container">
+                                        <p>Le professionnalisme au service de l'industrie</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-7e1c17f footer-social-icons elementor-widget elementor-widget-elementskit-social-media"
+                                    data-id="7e1c17f" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="elementskit-social-media.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="ekit-wid-con">
+                                            <ul class="ekit_social_media">
+                                                <li class="elementor-repeater-item-dcd5b1a">
+                                                    <a href="https://x.com" aria-label="Twitter" class="twitter">
+
+                                                        <i aria-hidden="true" class="fab fa-x-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-repeater-item-060d475">
+                                                    <a href="https://facebook.com" aria-label="facebook"
+                                                        class="facebook">
+
+                                                        <i aria-hidden="true" class="icon icon-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="elementor-repeater-item-2edcd5e">
+                                                    <a href="https://Instagram.com" aria-label="Instagram"
+                                                        class="1">
+
+                                                        <i aria-hidden="true" class="icon icon-instagram-1"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-c9a0c1c e-con-full e-flex e-con e-child"
+                            data-id="c9a0c1c" data-element_type="container">
+                            <div class="elementor-element elementor-element-797bab2 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
+                                data-id="797bab2" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Liens rapides</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-4748f8c footer-links elementor-widget elementor-widget-ekit-vertical-menu"
+                                data-id="4748f8c" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="ekit-vertical-menu.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                                            <div class="ekit-vertical-menu-container">
+                                                <ul id="menu-footer-menu"
+                                                    class="ekit-vertical-navbar-nav submenu-click-on-icon">
+                                                    <li id="menu-item-9170"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9170 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../../about-us/index.html"
+                                                            class="ekit-menu-nav-link">À propos</a></li>
+                                                    <li id="menu-item-3706"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3706 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../../services/index.html"
+                                                            class="ekit-menu-nav-link">Nos services</a></li>
+                                                    <li id="menu-item-8197"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8197 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="../../formations/index.html"
+                                                            class="ekit-menu-nav-link">Nos formations</a></li>
+                                                    <li id="menu-item-8197"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8197 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="#!"
+                                                            class="ekit-menu-nav-link">Carrière</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-bbfe16e e-con-full e-flex e-con e-child"
+                            data-id="bbfe16e" data-element_type="container">
+                            <div class="elementor-element elementor-element-fcce072 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
+                                data-id="fcce072" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Securité</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-1727962 footer-links elementor-widget elementor-widget-ekit-vertical-menu"
+                                data-id="1727962" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="ekit-vertical-menu.default">
+                                <div class="elementor-widget-container">
+                                    <div class="ekit-wid-con">
+                                        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                                            <div class="ekit-vertical-menu-container">
+                                                <ul id="menu-security-menu"
+                                                    class="ekit-vertical-navbar-nav submenu-click-on-icon">
+                                                    <li id="menu-item-8885"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8885 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="#"
+                                                            class="ekit-menu-nav-link">Conditions générales</a></li>
+                                                    <li id="menu-item-8886"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8886 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="#"
+                                                            class="ekit-menu-nav-link">Politique de confidentialité</a></li>
+                                                    <li id="menu-item-8887"
+                                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8887 nav-item elementskit-mobile-builder-content"
+                                                        data-vertical-menu=750px><a href="#"
+                                                            class="ekit-menu-nav-link">Aide</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-40bb102 e-con-full e-flex e-con e-child"
+                            data-id="40bb102" data-element_type="container">
+                            <div class="elementor-element elementor-element-aaae9cf at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading"
+                                data-id="aaae9cf" data-element_type="widget"
+                                data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Contact</h2>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-4bb5e3c e-con-full e-flex e-con e-child"
+                                data-id="4bb5e3c" data-element_type="container">
+                                <div class="elementor-element elementor-element-cfa3132 elementor-widget elementor-widget-icon-box"
+                                    data-id="cfa3132" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+
+
+                                            <div class="elementor-icon-box-content">
+
+                                                <h3 class="elementor-icon-box-title">
+                                                    <a href="tel:+226%2537067">
+                                                        +226 25 37 30 67 </a>
+                                                </h3>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-a002097 elementor-widget elementor-widget-icon-box"
+                                    data-id="a002097" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+
+
+                                            <div class="elementor-icon-box-content">
+
+                                                <h3 class="elementor-icon-box-title">
+                                                    <a href="mailto:3msolutions@gmail.com">
+                                                        3msolutions@gmail.com </a>
+                                                </h3>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-e3b7d18 elementor-widget elementor-widget-icon-box"
+                                    data-id="e3b7d18" data-element_type="widget"
+                                    data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                                    data-widget_type="icon-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-icon-box-wrapper">
+
+
+                                            <div class="elementor-icon-box-content">
+
+                                                <h3 class="elementor-icon-box-title">
+                                                    <a href="mailto:3msolutions@gmail.com">
+                                                        OUAGA, ZAD, Burkina Faso </a>
+                                                </h3>
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-8e7dba4 e-con-full e-flex e-con e-child"
+                        data-id="8e7dba4" data-element_type="container">
+                        <div class="elementor-element elementor-element-ac91459 elementor-widget elementor-widget-text-editor"
+                            data-id="ac91459" data-element_type="widget"
+                            data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}"
+                            data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Copyright © 2025 All Rights Reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/toplax\/*"},{"not":{"href_matches":["\/toplax\/wp-*.php","\/toplax\/wp-admin\/*","\/toplax\/wp-content\/uploads\/*","\/toplax\/wp-content\/*","\/toplax\/wp-content\/plugins\/*","\/toplax\/wp-content\/themes\/toplax\/*","\/toplax\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+    <script>
+        const lazyloadRunObserver = () => {
+            const lazyloadBackgrounds = document.querySelectorAll(`.e-con.e-parent:not(.e-lazyloaded)`);
+            const lazyloadBackgroundObserver = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        let lazyloadBackground = entry.target;
+                        if (lazyloadBackground) {
+                            lazyloadBackground.classList.add('e-lazyloaded');
+                        }
+                        lazyloadBackgroundObserver.unobserve(entry.target);
+                    }
+                });
+            }, {
+                rootMargin: '200px 0px 200px 0px'
+            });
+            lazyloadBackgrounds.forEach((lazyloadBackground) => {
+                lazyloadBackgroundObserver.observe(lazyloadBackground);
+            });
+        };
+        const events = [
+            'DOMContentLoaded',
+            'elementor/lazyload/observe',
+        ];
+        events.forEach((event) => {
+            document.addEventListener(event, lazyloadRunObserver);
+        });
+    </script>
+    <link rel='stylesheet' id='elementor-post-4240-css'
+        href='../../wp-content/uploads/elementor/css/post-4240.css%3Fver=1759297442.css' media='all' />
+    <link rel='stylesheet' id='elementor-post-9186-css'
+        href='../../wp-content/uploads/elementor/css/post-9186.css%3Fver=1759316674.css' media='all' />
+    <link rel='stylesheet' id='elementor-post-9193-css'
+        href='../../wp-content/uploads/elementor/css/post-9193.css%3Fver=1759316674.css' media='all' />
+    <link rel='stylesheet' id='elementor-post-3553-css'
+        href='../../wp-content/uploads/elementor/css/post-3553.css%3Fver=1759297443.css' media='all' />
+    <link rel='stylesheet' id='widget-text-path-css'
+        href='../../wp-content/plugins/elementor/assets/css/widget-text-path.min.css%3Fver=3.32.3.css'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-brands-css'
+        href='../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css%3Fver=5.15.3.css'
+        media='all' />
+    <script src="../../wp-includes/js/dist/hooks.min.js%3Fver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+    <script src="../../wp-includes/js/dist/i18n.min.js%3Fver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+    <script id="wp-i18n-js-after">
+        wp.i18n.setLocaleData({
+            'text direction\u0004ltr': ['ltr']
+        });
+    </script>
+    <script src="../../wp-content/plugins/contact-form-7/includes/swv/js/index.js%3Fver=6.1.2" id="swv-js"></script>
+    <script id="contact-form-7-js-before">
+        var wpcf7 = {
+            "api": {
+                "root": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-json\/",
+                "namespace": "contact-form-7\/v1"
+            },
+            "cached": 1
+        };
+    </script>
+    <script src="../../wp-content/plugins/contact-form-7/includes/js/index.js%3Fver=6.1.2" id="contact-form-7-js"></script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/SmoothScroll.js%3Fver=1.0.1" id="SmoothScroll-js"></script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/gsap.min.js%3Fver=1.0.1" id="gsap-js"></script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/magiccursor.js%3Fver=1.0.1" id="magiccursor-js"></script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/SplitText.js%3Fver=1.0.1" id="SplitText-js"></script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/ScrollTrigger.min.js%3Fver=1.0.1" id="ScrollTrigger-js">
+    </script>
+    <script src="../../wp-content/themes/3M_SOLUTIONS/assets/js/function.js%3Fver=1.0.1" id="theme-js-js"></script>
+    <script src="../../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js%3Fver=3.7.3"
+        id="elementskit-framework-js-frontend-js"></script>
+    <script id="elementskit-framework-js-frontend-js-after">
+        var elementskit = {
+            resturl: 'https://demo.awaikenthemes.com/toplax/wp-json/elementskit/v1/',
+        }
+    </script>
+    <script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js%3Fver=3.7.3"
+        id="ekit-widget-scripts-js"></script>
+    <script src="../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js%3Fver=3.32.3"
+        id="elementor-webpack-runtime-js"></script>
+    <script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js%3Fver=3.32.3"
+        id="elementor-frontend-modules-js"></script>
+    <script src="../../wp-includes/js/jquery/ui/core.min.js%3Fver=1.13.3" id="jquery-ui-core-js"></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Share on Facebook",
+                "shareOnTwitter": "Share on Twitter",
+                "pinIt": "Pin it",
+                "download": "Download",
+                "downloadImage": "Download image",
+                "fullscreen": "Fullscreen",
+                "zoom": "Zoom",
+                "share": "Share",
+                "playVideo": "Play Video",
+                "previous": "Previous",
+                "next": "Next",
+                "close": "Close",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Mobile Portrait",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Mobile Landscape",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Portrait",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Tablet Landscape",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                },
+                "hasCustomBreakpoints": false
+            },
+            "version": "3.32.3",
+            "is_static": false,
+            "experimentalFeatures": {
+                "container": true,
+                "nested-elements": true,
+                "home_screen": true,
+                "global_classes_should_enforce_capabilities": true,
+                "e_variables": true,
+                "cloud-library": true,
+                "e_opt_in_v4_page": true,
+                "import-export-customization": true
+            },
+            "urls": {
+                "assets": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-content\/plugins\/elementor\/assets\/",
+                "ajaxurl": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-admin\/admin-ajax.php",
+                "uploadUrl": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-content\/uploads"
+            },
+            "nonces": {
+                "floatingButtonsClickTracking": "e1cdf04723"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "body_background_background": "classic",
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 1669,
+                "title": "Research%20and%20Development%20%E2%80%93%20Toplax",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src="../../wp-content/plugins/elementor/assets/js/frontend.min.js%3Fver=3.32.3" id="elementor-frontend-js">
+    </script>
+    <script src="../../wp-content/plugins/elementskit/modules/parallax/assets/js/jarallax.js%3Fver=4.1.0" id="jarallax-js">
+    </script>
+    <script src="../../wp-content/plugins/elementskit/modules/parallax/assets/js/parallax-admin.js%3Fver=4.1.0"
+        id="elementskit-parallax-admin-js"></script>
+    <script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js%3Fver=3.7.3"
+        id="animate-circle-js"></script>
+    <script id="elementskit-elementor-js-extra">
+        var ekit_config = {
+            "ajaxurl": "https:\/\/demo.awaikenthemes.com\/toplax\/wp-admin\/admin-ajax.php",
+            "nonce": "12c7ddd467"
+        };
+    </script>
+    <script src="../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js%3Fver=3.7.3"
+        id="elementskit-elementor-js"></script>
+    <script src="../../wp-content/plugins/elementskit/widgets/init/assets/js/elementor.js%3Fver=4.1.0"
+        id="elementskit-elementor-pro-js"></script>
+    <script src="../../../assets/js/theme-panel.js"></script>
+
+</body>
+
+</html>
